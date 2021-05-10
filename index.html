@@ -21,10 +21,10 @@
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 navList">
               <li class="nav-item">
-                <a class="nav-link pageNav" href="#">About Me</a>
+                <a class="nav-link pageNav" href="#aboutMe">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pageNav" href="#">My Projects</a>
+                <a class="nav-link pageNav" href="#projectArea">My Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link pageNav" href="#">Contact Me</a>
@@ -51,9 +51,12 @@
       </div>
     </header>
     <main>
-      <div class="container-fluid bg-light aboutMe">
+      <div class="container-fluid bg-dark text-light py-4 px-5 aboutMe">
         <h2>About Me</h2>
         <p>
+          Hi! My name is Samuel Brookshire.
+          <br />
+          <br />
           I am a 22 year old full-stack web developer based out of Beloit,
           Wisconsin. I studied Aerospace Engineering at university and decided
           to change course. I am a soon-to-be graduate of the University of
@@ -76,9 +79,12 @@
           d-flex
           flex-column flex-wrap
           justify-content-center
+          bg-light
         "
+        id="projectArea"
       >
-        <div class="row justify-content-center mb-4 mt-5">
+        <h2 class="text-center mt-4">My Projects</h3>
+        <div class="row justify-content-center mb-4 mt-3">
           <div class="card text-center col-9 bigProj">
             <img
               src="./imgs/night-sky.png"
@@ -157,6 +163,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class='bg-dark text-light container-fluid mb-5'>
+        <h2>Contact Me</h2>
+        <p>My Github: <a class='alert-link' href="https://github.com/V1brance">V1brance</a></p>
+        <p>My LinkedIn: <a class='alert-link' href="">Samuel Brookshire</a></p>
+        <p>My Resume: <a class='alert-link' href="">Google Drive</a></p>
       </div>
     </main>
     <!-- Bootstrap script tag -->
